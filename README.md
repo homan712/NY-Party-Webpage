@@ -1,2 +1,0 @@
-# NY-Party-Webpage
-Sample

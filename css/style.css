@@ -1,0 +1,195 @@
+h1,h2,h3,h4,h5{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    background: #F05F5C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+h4{
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+p{
+  color: #707070;
+}
+
+p.lead{
+  color: black;
+}
+
+#intro .jumbotron{
+  height:70vh; /*vh = monitor size */
+  margin-bottom: 0px;
+}
+
+#intro h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#intro .container{    /*make the banner center, so i can put the negativation on top of it*/
+  position: relative;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform:translateY(-50%);
+  -transform:translateY(-50%);
+}
+
+header nav img{
+  width:170px;
+}
+
+header li {
+  margin: 0 18px;
+}
+
+#second{
+  padding: 80px 0px
+}
+
+#second h4{
+  margin-bottom: 80px;
+}
+
+#second img{
+  width: 100px;
+  border-radius: 100px;
+  margin-bottom: 13px;
+}
+
+#latest{
+  padding: 80px 0px
+  rgb(248,248,248);
+}
+
+#latest h3{
+  margin-bottom: 80px;
+
+}
+
+#latest .innertext h4{
+  font-size: 25px;
+  margin-top: 24px;
+}
+
+img{
+  max-width:100%;
+}
+
+#latest .upper{
+  position: relative;
+}
+
+#latest .innertext{
+  position: absolute;
+  bottom: 24px;
+  left: 50px;
+}
+
+#latest .innertext span{
+  background: rgba(255, 255, 255, 0.3);
+  padding:6px 15px;
+  border-radius: 20px;
+
+}
+
+#latest .lower h3{
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+
+#latest .lower I{
+margin-right: 6px;
+}
+
+#latest .outer{
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+}
+
+#latest .lower{
+  padding: 6px 20px 20px 20px;
+}
+
+#latest a{
+  color: black;
+}
+
+#latest a:hover{
+  text-decoration: underline;
+}
+
+#email{
+  padding: 80px 0px;
+}
+
+#email h3{
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+#email .btn{
+  margin-top: 25px;
+}
+
+footer{
+  border-top: solid 1px #c9c9c9;
+  padding: 80px 0px;
+}
+
+footer img{
+  width: 112px;
+  margin-bottom: 26px;
+}
+
+footer h4{
+  margin-bottom:26px;
+  font-size:20px;
+}
+
+footer a{
+  color:#F05F5C;
+}
+
+footer ul{
+  list-style: none;
+  padding: 0;
+  float: left;
+  margin-right:20px;
+  margin-bottom:10px;
+}
+
+footer ul li{
+  color:#707070;
+}
+
+
+@media only screen and (max-width:768px){
+  #second h5{
+    margin-bottom: 63px;
+  }
+  #latest .outer{
+    margin-bottom: 54px;
+  }
+
+  #latest .outer img{
+    width: 100%;
+  }
+  footer h4{
+    margin-bottom: 26px;
+    margin-top: 35px;
+  }
+
+}
